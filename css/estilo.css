@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Nerko+One&display=swap');
+
+body {
+    background-color: burlywood;
+    background-image: url(../img/corazon.png);
+
+    background-position: center bottom;
+    font-family: "Lato", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+
+}
+
+header {
+    padding: 15px;
+    /*
+    background-color: #fff4d8 ;
+    background-image: url(../img/logocafe.webp);
+    background-repeat: no-repeat;
+    background-position: center;
+    */
+    background: #fff4d8 url(../img/logocafe.webp) no-repeat center !important;
+    background-size: 270px !important;
+}
+
+h1 {
+    background-color: brown;
+    color: white;
+    text-align: center;
+    font-family: "Nerko One", cursive;
+
+}
+
+p {
+    text-align: justify;
+    color: gray;
+    font-size: 16px;
+}
+
+article {
+    background-color: beige;
+    width: 80%;
+    margin-left: 10%;
+}
+
+article h1 {
+    background-color: white;
+    color: brown;
+    text-align: left;
+    text-transform: uppercase;
+    font-size: 32px;
+}
+
+img {
+    width: 100%;
+}
+
+#logo {
+    background-color: white;
+    width: 150px;
+    height: 150px;
+    text-align: center;
+    line-height: 150px;
+    font-size: 50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: brown;
+    font-weight: bold;
+    -webkit-border-radius: 100px 0;
+    border-radius: 100px 0;
+    -webkit-box-shadow: 0 0 15px 0 #695555;
+    box-shadow: 0 0 15px 0 #695555;
+
+    -webkit-transition: all 500ms ease-in-out;
+    -moz-transition: all 500ms ease-in-out;
+    -ms-transition: all 500ms ease-in-out;
+    -o-transition: all 500ms ease-in-out;
+    transition: all 500ms ease-in-out;
+}
+
+#logo:hover {
+    -webkit-transition: all 500ms ease-in-out;
+    -moz-transition: all 500ms ease-in-out;
+    -ms-transition: all 500ms ease-in-out;
+    -o-transition: all 500ms ease-in-out;
+    transition: all 500ms ease-in-out;
+
+    -moz-transform: scale(1.5) rotate(360deg);
+    -webkit-transform: scale(1.5) rotate(360deg);
+    -o-transform: scale(1.5) rotate(360deg);
+    -ms-transform: scale(1.5) rotate(360deg);
+    transform: scale(1.5) rotate(360deg);
+   
+    background-color: tomato;
+    color: white;
+}
+
+.destacado {
+    font-style: italic;
+    text-align: right;
+    width: 60%;
+    margin-left: 30%;
+    color: brown;
+    padding-bottom: 30px;
+}
+
+.propiedades {
+    background-color: aquamarine;
+    /* Margen interno */
+    /*
+    padding-top: 50px;
+    padding-right: 40px;
+    padding-bottom: 50px;
+    padding-left: 40px;
+    padding: 50px 40px 50px 40px; 
+    padding: 50px 40px; */
+    padding: 30px;
+
+    /* margin-top: 150px;
+    margin-right: 40px;
+    margin-bottom: 140px;
+    margin-left: 60px;
+    margin: 100px 50px 20px 40px;*/
+    margin: 40px;
+
+    border-top: 4px red solid;
+    border-right: 10px greenyellow dashed;
+    border-bottom: 3px orange dotted;
+    border-left: purple 5px double;
+}
+
+nav li {
+    display: inline;
+}
+
+nav a:link,
+nav a:visited {
+    color: brown;
+    text-decoration: none;
+    border: solid 1px black;
+    padding: 5px 10px;
+    -webkit-transition: all 500ms ease-in-out;
+    -moz-transition: all 500ms ease-in-out;
+    -ms-transition: all 500ms ease-in-out;
+    -o-transition: all 500ms ease-in-out;
+    transition: all 500ms ease-in-out;
+}
+
+nav a:hover {
+    background-color: brown;
+    color: white;
+    -webkit-transition: all 500ms ease-in-out;
+    -moz-transition: all 500ms ease-in-out;
+    -ms-transition: all 500ms ease-in-out;
+    -o-transition: all 500ms ease-in-out;
+    transition: all 500ms ease-in-out;
+
+}
+
+nav a:active {
+    background-color: black;
+}
+
+.todo {
+    width: 1200px;
+    background-color: rgba(255,200,200,0.7);
+    margin: 0 auto;
+    -webkit-box-shadow: 0 0 15px 0 #695555;
+    box-shadow: 0 0 15px 0 #695555;
+
+}

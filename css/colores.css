@@ -1,0 +1,39 @@
+.nombreColor{
+    color: red;
+    color: green;
+    color: blue;
+    color: white;
+    color: black;
+    color: gray;
+    color:orange;
+}
+
+.coloresRGB{
+    color: rgb(red, green, blue);
+    color:rgb(213, 121, 121);
+    color:rgb(50, 125, 50);
+    color:rgb(0, 0, 255 );
+    color:rgb(255, 255, 255 );
+    color:rgb(0, 0, 0 );
+    color:rgb(70, 70, 70 );
+    color:rgb(200, 200, 200 );
+    color:rgb(251, 160, 0);
+}
+.coloresHexadecimales{
+    color: #123456;
+    color: #FF0000;
+    color: #00FF00;
+    color: #0000FF;
+    color: #FFFFFF;
+    color: #000000;
+    color: #871919;
+    color: #CCCCCC;
+    color: #9c5401;
+    color: #1155EE; 
+    color: #15E; 
+    color: #ccc;
+}
+.coloresRGBA{
+    color: rgba(red, green, blue, alpha); /* ultimo valor la transparencia */
+    color:rgba(176, 77, 77, 0.491);
+}
